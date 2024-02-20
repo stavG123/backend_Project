@@ -1,0 +1,17 @@
+{% extends "project_simple.html" %}
+
+{% block title %} {{title}}  {% endblock title %}
+{% block header %} {{header}}  {% endblock header %}
+
+{% block content %} 
+
+   <p>
+      swimmer_name: {{ result["swimmer_name"] }} 
+   </p>
+   <p>
+      swimmer_age: {{ result["swimmer_age"] }} 
+   </p>
+   <p>
+      swimmer_gender: {{ result["swimmer_gender"] }} 
+   </p>
+{% endblock content %}

@@ -1,0 +1,16 @@
+{% extends "project_simple.html" %}
+
+{% block title %} {{title}}  {% endblock title %}
+{% block header %} {{header}}  {% endblock header %}
+
+{% block content %} 
+   <p>
+      team_name: {{ result["team_name"] }} 
+   </p>
+   <p>
+      coach_name: {{ result["coach_name"] }} 
+   </p>
+   <p>
+      Location: {{ result["Location"] }} 
+   </p>
+{% endblock content %}

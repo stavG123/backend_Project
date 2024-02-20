@@ -1,0 +1,12 @@
+1,FreeStyle,50M
+2,FreeStyle,100M
+3,FreeStyle,200M
+4,Breaststroke,50M
+5,Breaststroke,100M
+6,Breaststroke,200M
+7,fly,50M
+8,fly,100M
+9,fly,200M
+10,back,50M
+11,Back,100M
+12,Back,200M

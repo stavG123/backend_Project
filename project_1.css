@@ -1,0 +1,69 @@
+body {
+    background-color: rgb(217, 11, 231);
+    color: floralwhite;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2rem;
+  }
+  
+  /* https://www.w3schools.com/howto/howto_css_list_without_bullets.asp */
+  /* old style might be cached Ctrl-Shift-R   */
+  .nobullet {
+    list-style-type: none;
+    /* Remove bullets */
+    padding: 0;
+    /* Remove padding */
+    margin: 0;
+    /* Remove margins */
+  }
+  
+  .error {
+    background-color: darksalmon;
+    color: darkred;
+  }
+  
+  td {
+    background-color: darkslategray;
+    color: floralwhite;
+    border: 2px solid floralwhite;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  th {
+    background-color: floralwhite;
+    color: darkslategray;
+    border: 2px solid darkslategray;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav li {
+    display: inline-block;
+    width: 6rem;
+  }
+  
+  .nav li a {
+    display: block;
+    background-color: floralwhite;
+    color: darkslategray;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    border-color: darkolivegreen;
+    border-width: 3px;
+    border-style: solid;
+  }
+  
+  .nav li a:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+  }
+ 

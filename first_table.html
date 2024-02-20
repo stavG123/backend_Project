@@ -1,0 +1,52 @@
+{% extends "project_simple.html" %}
+{% block title %} {{title}} {% endblock title %}
+{% block header %} {{header}} {% endblock header %}
+
+{% block content %}
+<h2>First table</h2>
+<table>
+   <thead>
+      <tr>
+         <th>
+            id
+         </th>
+         <th>
+            Name
+         </th>
+         <th>
+            Age
+         </th>
+         <th>
+            Gender
+         </th>
+         <th>
+            Team_id
+         </th>
+      </tr>
+   </thead>
+   <tbody>
+      {% for item in Swimmer %}
+      <tr>
+         <td>
+            {{ item.id }}
+         </td>
+         <td> 
+            {{ item.Name }}
+         </td>
+         <td>
+            {{ item.Age }}
+         </td>
+         <td>
+            {{ item.Gender }}
+         </td>
+          <td>
+            {{ item.Team_id }}
+         </td>
+      </tr>
+      {% endfor %}
+   </tbody>
+</table>
+
+{% endblock content %}
+
+    

@@ -1,0 +1,53 @@
+[
+    {
+        "TeamName": "Team-Europe ",
+        "CoachName": "Lazlo chech",
+        "Location": "Europe",
+        "Swimmers": [
+            {
+                "id": "1",
+                "Name": "Stav Gorobets",
+                "Age": 23,
+                "Gender": "M"
+            },
+            {
+                "id": "2",
+                "Name": "Tarik Gusig",
+                "Age": 45,
+                "Gender": "M"
+            },
+            {
+                "id": "3",
+                "Name": "Iris Faur",
+                "Age": 32,
+                "Gender": "W"
+            }
+        ]
+    },
+    {
+        "TeamName": "Team-USA",
+        "CoachName": "kerry Smith",
+        "Location": "USA",
+        "Swimmers": [
+            {
+                "id": "4",
+                "Name": "Michel Andrew",
+                "Age": 30,
+                "Gender": "M"
+            },
+            {
+                "id": "5",
+                "Name": "Thomas blum",
+                "Age": 23,
+                "Gender": "M"
+            },
+            {
+                "id": "6",
+                "Name": "Kate Ledecky",
+                "Age": 28,
+                "Gender": "W"
+            }
+        ]
+    }
+]
+

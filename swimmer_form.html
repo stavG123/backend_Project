@@ -1,0 +1,41 @@
+{% extends "project_simple.html" %}
+
+{% block title %} {{title}}  {% endblock title %}
+{% block header %} {{header}}  {% endblock header %}
+
+{% block content %} 
+<form action="" method="post">
+   {{ form.csrf_token }}
+
+   <div>
+      {{form.swimmer_name.label}}
+      <span class="error">{{ form.swimmer_name.errors | join("|") }}</span>
+      <br />
+      {{form.swimmer_name}}
+   </div>
+
+   <div>
+      {{form.swimmer_age.label}}
+      <span class="error">{{ form.swimmer_age.errors | join("|") }}</span>
+      <br />
+      {{form.swimmer_age}}
+   </div>
+   <div>
+      {{form.swimmer_gender.label}}
+      <span class="error">{{ form.swimmer_gender.errors | join("|") }}</span>
+      <br />
+      {{form.swimmer_gender}}
+   </div>
+
+   <div>
+      {{form.team_id.label}}
+      <span class="error">{{ form.team_id.errors | join("|") }}</span>
+      <br />
+      {{form.team_id}}
+   </div>
+   <!-- SUBMIT -->
+   <div>
+      {{form.submit()}}
+   </div>
+</form>
+{% endblock content %}

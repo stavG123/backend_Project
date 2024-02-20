@@ -1,0 +1,20 @@
+{% extends "xxxx.html" %}
+
+{% block title %} {{title}} {% endblock title %}
+{% block header %} {{header}} {% endblock header %}
+
+{% block content %}
+
+<h2>Gridjs Datatable</h2>
+<div id="target2"></div>
+
+<script>
+   new gridjs.Grid({
+      columns: {{ columns|safe }},
+      data: {{ data|safe }},
+      pagination: true, 
+      sort: true
+   }).render(document.getElementById('target2'));
+</script>
+
+{% endblock content %}
